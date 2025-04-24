@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Fabled Nectar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    
+
+</head>
+
+<!--BODY-->
+
+<body>
+    <header>
+        <nav>
+            <div class="nav_container">
+                <div id="logo"><img src="images/tfn_logo.png" alt="logo"></div>
+            </div>
+            <button class="hamburger" aria-label="toggle navigation">
+                &#9776;
+            </button>
+
+            <ul class="nav_main">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop/shop.html">Shop</a></li>
+                <li><a href="shop/Subscription.html">Subscription</a></li>
+                <li><a href="contact/contact.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>  
+        </nav>
+         <div class="hero_image">
+                <h1 class="hero_header">PURELY CRAFTED,<br>NATURALLY DELICIOUS</h1>
+            </div>
+    </header>
+
+<!--MAIN-->
+
+<main>
+    <div id="index_grid">
+        <div id="welcome">
+            <img src="images/rawpixel_bee.png" alt="bee image" id="welcome_img">
+                <h2><em>THE FABLED NECTAR</em></h2>
+             <p>More than just honey, our products are a ritual &#8212; whether stirred into a calming evening tea, drizzled over morning oats, or gifted as a token of care. <br><b>The Fabled Nectar</b> offers a taste of wellness, a touch of elegance, and the timeless magic of nature&#8217;s golden nectar.<br></p>
+        </div>  
+    
+    <div id="honey_drizzle">
+        <img src="images/rawpixel_honey.png" alt="honey drizzle">
+    </div>
+
+    <div id="productinfo">
+        <section> 
+            <h2 id="product_h2">Product of the Month</h2>
+            <p><em>Limited Time Offer!</em></p>
+            <p>Sweet with a hint of spice
+                The cozy warmth of organic cinnamon
+                Naturally rich in antioxidants
+                Gluten and dairy-free!
+                No artificial flavors or preservatives!
+                </p>
+        </section>
+    </div>
+
+    <div id="productimg">
+        <img src="images/tfn_mockup_jar_cinn.png" alt="Cinnamon Aura">
+    </div>
+
+    <div id="spoonimg">
+        <img src="images/rawpixel_spoon.png" alt="honey spoon">
+    </div>
+
+    <div id="testimonials">
+        <section>
+            <h2 id="testimonial_h2">Testimonials</h2>
+                 Mark S. says, <q>I bought a few jars as gifts, and now I keep coming back for more.</q><br><br>
+                <q>I can't get enough of this honey!</q>, says Sarah W.
+        </section>
+    </div>
+
+
+    <div id="subinfo">
+        <section>
+            <h2>Subscription Service</h2>
+                <h3>Discover the Magic of Infused Honey with The Fabled Nectar Elixir Club!</h3>
+                    <p>As a subscriber, indulge in a curated journey of flavor with our fabled honey subscription. Each box delivers an apothecary&#8211;inspired infused honey. From the warming embrace of <b>Cinnamon Aura</b> to the indulgent creaminess of <b>Vanilla Heaven</b>, every jar is a taste of nature&#8217;s sweetest nectar.<br>
+
+                <button class="button">JOIN THE ELIXIR CLUB</button>
+        </section>
+    </div>
+    
+    <div id="beeinfo">
+        <section>
+            <div class="bee_text">
+                <h2><em>Bee Friendly</em></h2>
+            </div>
+                <img src="images/rawpixel_beefarm.jpg" alt="beefarm">
+        </section>
+    </div>
+
+    <div id="beemap">
+        <h2><em>Protect the pollinators</em></h2>
+        <img src="images/rawpixel_map.jpg" alt="map on a phone">
+    </div>
+    </div>
+</main>
+
+<footer id="footer">
+    <div id="contact">
+        <table>
+            <tr>
+                <td><strong>Location:</strong></td>
+                <td>123 Honey Lane, Beeville</td>
+            </tr>
+            <tr>
+                <td><strong>Contact:</strong></td>
+                <td>(123) 456-7890</td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td>hello@fablednectar.com</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="social">
+        <h2>SOCIAL</h2>
+            <a href="https://www.facebook.com">Facebook</a>
+            <br>
+            <a href="https://www.instagram.com">Instagram</a>
+    </div>
+
+    <div id="copyright">
+        <p><small>This is a fictitious business; this website is for learning purposes only. All content copyright &copy; 2025 The Fabled Nectar.</small></p>
+    </div>
+</footer>
+
+<!--Hamburger Menu-->
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav_main');
+  
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>

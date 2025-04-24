@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    
+<header>
+    <nav>
+        <div class="nav_container">
+            <div id="logo"><img src="images/tfn_logo.png" alt="logo"></div>
+        </div>
+        <button class="hamburger" aria-label="toggle navigation">
+            &#9776;
+        </button>
+
+        <ul class="nav_main">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop/shop.html">Shop</a></li>
+            <li><a href="shop/Subscription.html">Subscription</a></li>
+            <li><a href="contact/contact.html">Contacts</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>  
+    </nav>
+        <div class="about_img">
+            <h1 class="about_head">About Us</h1>
+        </div>     
+</header>
+
+<main>
+    <div id="about_grid">
+        <div id="our_storypic">
+            <img src="images/rawpixel_agedbee.jpg" alt="old time bee farm photo">
+        </div>
+
+        <div id="our_story">
+            <section>
+                <h2>Our Story</h2>
+                    <p><b>The Fabled Nectar</b> was established in 1942 by the Fable brothers on a farm owned by their family. Honey runs in their blood and the conservation of bees has been their objective from the very beginning.</p>
+            </section>
+        </div>
+
+        <div id="our_brand">
+            <section>
+                <h2>Our Brand</h2>
+                    <p>Our brand is designed to evoke nostalgia and sophistication, appealing to those who appreciate artisanal craftsmanship and natural remedies. Presented in vintage&#8211;inspired glass jars with ornate labels, <b>The Fabled Nectar</b> reflects the charm of an old-world apothecary. It blends the ancient art of apothecary with the sweet allure of nature. Specializing in handcrafted, infused honeys, our products are thoughtfully curated to offer both flavor and wellness benefits. Each jar is infused with carefully selected botanicals, spices, or citrus, creating unique combinations like vanilla marshmallow, cinnamon clove, and strawberry peach.</p>
+            </section>
+        </div>
+
+        <div id="bee_map">
+            <img src="images/rawpixel_map.jpg" alt="phone map">
+        </div>
+
+        <div id="bee_info">
+            <section>
+                <h2>Bee Friendly Sanctuary Fund</h2>
+                    <p>At The Fabled Nectar, we believe in the preservation of bees. A portion of every sale is donated to the Bee Friendly Sanctuary Fund, which focuses on restoring wildflower planting and sustainable beekeeping programs.</p>
+            </section>
+        </div>
+    </div>
+
+    <h2>BEE SANCTUARY</h2>
+    <div class="bee_gallery">
+        <div class="img"><img src="images/rawpixel_BATCH_agedbee.jpg" alt="brothers collecting honey"></div>
+        <div class="img"><img src="images/rawpixel_BATCH_beefarm.jpg" alt="gathering honey at a bee farm"></div>
+        <div class="img"><img src="images/rawpixel_BATCH_beefarm1.jpg" alt="honey boxes in a field"></div>
+        <div class="img"><img src="images/rawpixel_BATCH_beefarm2.jpg" alt="a worker gathering honey"></div>
+        <div class="img"><img src="images/rawpixelagedbee1_BATCH.jpg" alt="selling honey at an old market"></div>
+        <div class="img"><img src="images/rawpixelbeefarm3_BATCH.jpg" alt="close up of bees"></div>
+    </div>
+
+</main>
+
+<footer id="footer">
+    <div id="contact">
+        <table>
+            <tr>
+                <td><strong>Location:</strong></td>
+                <td>123 Honey Lane, Beeville</td>
+            </tr>
+            <tr>
+                <td><strong>Contact:</strong></td>
+                <td>(123) 456-7890</td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td>hello@fablednectar.com</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="social">
+        <h2>SOCIAL</h2>
+            <a href="https://www.facebook.com">Facebook</a>
+            <br>
+            <a href="https://www.instagram.com">Instagram</a>
+    </div>
+
+    <div id="copyright">
+        <p><small>This is a fictitious business; this website is for learning purposes only. All content copyright &copy; 2025 The Fabled Nectar.</small></p>
+        </div>
+</footer>
+
+<!--Hamburger Menu-->
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav_main');
+  
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>

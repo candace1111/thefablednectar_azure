@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav_container">
+                <div id="logo"><img src="../images/tfn_logo.png" alt="logo"></div>
+            </div>
+            <button class="hamburger" aria-label="toggle navigation">
+                &#9776;
+            </button>
+
+            <ul class="nav_main">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../shop/shop.html">Shop</a></li>
+                <li><a href="../shop/Subscription.html">Subscription</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>  
+        </nav>
+    <div class="contact_back">
+        <h1 class="contact_head">CONTACT</h1>
+        <p class="contact_descrip">WE WANT TO HEAR FROM YOU!</p>
+    </div>
+    </header>
+
+<main>
+    <h1>We want to hear from you...</h1>
+    <div id="contact_table">
+        <div id="table">
+        <h2>CONTACT US</h2>
+            <p>Send us any questions or feedback by filling out the form below or sending an email to info&#64;fictitious.com. We are dedicated to returning 
+    your messages as quickly and efficiently as possible.</p>
+                <form method="POST">
+                    First name:<input type="text" name="firstname"><br>
+                    Last name:<input type="text" name="lastname"><br>
+                    Email:<input type="email" name="email" required><br>
+                    Message:<input type="text" name="message" required><br>
+
+                    <input type="submit" value="Submit!"> 
+                    <input type="reset">
+                </form>
+
+
+
+<!--might not use
+            <ol>
+                <li><label for="firstlast">Name:</label>
+                    <input type="text" name="fullname" id="firstlast"></li>
+                <li><label for="email">Email:</label>
+                    <input type="text" name="email" id="email"></li>
+                <li><label for="message">Message:</label>
+                    <input type="text" name="message" id="message"></li>      
+            </ol>
+            <button type="submit">Send</button>
+        </div>
+    -->
+
+    <div id="location">
+            <h2>Contact INFORMATION</h2>
+                <p><b>Phone Number:</b><span class="tel">(123) 456-7890</span>
+                <b>Address:</b><br>123 Honey Lane, Beeville 55555 U.S.</p>
+    </div>
+    
+    <div id="hours">
+    <h2>Hours of Operation</h2>
+    
+        <table>
+            <tr>
+                <th>Days of the Week</th>
+                <th>Hours of Operation</th>
+                <th>Timezone</th>
+            </tr>
+            <tr>
+                <td>Mon thru Fri</td>
+                <td>8am to 7pm</td>
+                <td>EST</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>8am to 8pm</td>
+                <td>EST</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Closed</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    <hr>
+    </div>
+    <div id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+        <table>
+            <tr>
+                <th>Shipping Questions</th>
+                <th>Subscription Questions</th>
+                <th>Common Questions</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>We want to make the ordering process quick and easy.</p>
+                </td>
+                <td>
+                    <p>Have a question about your subscription? Check out the FAQs page.</p>
+                </td>
+                <td>
+                    <p>Visit our <a href="faqs.html">Faqs</a> page for more information.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit">Shipping Info</button></td>
+                <td><button type="submit">Learn More</button></td>
+                <td><button type="submit">Faqs</button></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </main>
+
+    <footer id="footer">
+        <div id="contact">
+            <table>
+                <tr>
+                    <td><strong>Location:</strong></td>
+                    <td>123 Honey Lane, Beeville</td>
+                </tr>
+                <tr>
+                    <td><strong>Contact:</strong></td>
+                    <td>(123) 456-7890</td>
+                </tr>
+                <tr>
+                    <td><strong>Email:</strong></td>
+                    <td>hello@fablednectar.com</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="social">
+            <h2>SOCIAL</h2>
+                <a href="https://www.facebook.com">Facebook</a>
+                <br>
+                <a href="https://www.instagram.com">Instagram</a>
+        </div>
+
+        <div id="copyright">
+            <p><small>This is a fictitious business; this website is for learning purposes only. All content copyright &copy; 2025 The Fabled Nectar.</small></p>
+            </div>
+    </footer>
+
+<!--Hamburger Menu-->
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav_main');
+  
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>

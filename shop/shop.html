@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+
+<body>
+    
+<header>
+    <nav>
+        <div class="nav_container">
+            <div id="logo"><img src="../images/tfn_logo.png" alt="logo"></div>
+        </div>
+        <button class="hamburger" aria-label="toggle navigation">
+            &#9776;
+        </button>
+
+        <ul class="nav_main">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="Subscription.html">Subscription</a></li>
+            <li><a href="../contact/contact.html">Contacts</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>  
+    </nav>
+        <div class="shop_headpic">
+            <h1 class="shop_head">Shop<br>All<br>Products</h1>
+        </div>
+</header>
+
+<main>
+
+    <h2 class="customer">Customer Favorites</h2>
+<div id="shop_grid">
+    <div id="product1">
+        <img src="../images/tfn_mockup_jar_strawberry.png" alt="strawberry dream">
+            <dl>
+                <dt><em>Strawberry Dream</em></dt>
+                <dd>A fusion of luscious strawberries with hints of vanilla. Perfect for drizzling over pastries, swirling into yogurt, or sweetening an evening tea. <b>Strawberry Dream</b> is a nectar of pure indulgence.</dd>
+            </dl>
+            <button class="button">PURCHASE</button>
+    </div>
+    
+    <div id="product2">
+        <img src="../images/tfn_mockup_jar_cinn.png" alt="cinnamon aura">
+            <dl>      
+                <dt><em>Cinnamon Aura</em></dt>
+                <dd>A warm blend of aromatic cinnamon and the caramelized sweetness of honey. Perfect for stirring into tea, drizzling over baked goods, or enjoying by the spoonful, <b>Cinnamon Aura</b> is an elixir that soothes the soul.</dd>
+            </dl>        
+            <button class="button">PURCHASE</button>
+    </div>
+
+    <div id="product3">
+        <img src="../images/tfn_mockup_jar_vanilla.png" alt="vanilla heaven">
+            <dl>    
+                <dt><em>Vanilla Heaven</em></dt>
+                <dd>A decadent fusion of creamy vanilla and buttery sweet honey. Perfect for adding to pastries, stirring into coffee, or savoring straight from the spoon. <b>Vanilla Heaven</b> is a taste of pure <em>heaven</em>, wrapped in nectar.</dd>        
+            </dl>
+            <button class="button">PURCHASE</button>
+    </div>
+
+    <div id="product4">
+        <img src="../images/tfn_mockup_jar_blueberry.png" alt="cinnamon">
+        <dl>      
+            <dt><em>Blueberry Bliss</em></dt>
+            <dd>A sweet dose of blueberry flavor with notes of vanilla. Perfect for stirring into tea, drizzling over baked goods, or enjoying by the spoonful, <b>Blueberry Bliss</b> is sure to satisfy your sweet tooth.</dd>
+        </dl>        
+        <button class="button">PURCHASE</button>
+    </div>
+
+    <div id="subscrip">
+        <section>
+            <h2>Subscription Service</h2>
+            <h3>Discover the Magic of Infused Honey with The Fabled Nectar Elixir Club!</h3>
+            <!--add a sign up button-->
+            <p>As a subscriber, indulge in a curated journey of flavor with our fabled honey subscription. Each box delivers an apothecary&#8211;inspired infused honey. From the warming embrace of <b>Cinnamon Aura</b> to the indulgent creaminess of <b>Vanilla Heaven</b>, every jar is a taste of nature&#8217;s sweetest nectar.<br><br>Join the Elixir Club today and let every drop of honey tell a story.</p>
+            <button class="button">PURCHASE</button>
+        </section>
+    </div>
+</div>
+</main>
+
+<footer id="footer">
+    <div id="contact">
+        <table>
+            <tr>
+                <td><strong>Location:</strong></td>
+                <td>123 Honey Lane, Beeville</td>
+            </tr>
+            <tr>
+                <td><strong>Contact:</strong></td>
+                <td>(123) 456-7890</td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td>hello@fablednectar.com</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="social">
+        <h2>SOCIAL</h2>
+            <a href="https://www.facebook.com">Facebook</a>
+            <br>
+            <a href="https://www.instagram.com">Instagram</a>
+    </div>
+
+    <div id="copyright">
+        <p><small>This is a fictitious business; this website is for learning purposes only. All content copyright &copy; 2025 The Fabled Nectar.</small></p>
+        </div>
+</footer>
+
+<!--Hamburger Menu-->
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav_main');
+  
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
